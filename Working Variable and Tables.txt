@@ -1,0 +1,22 @@
+Working Variables
+  	dataFileZip - File name
+  	url - file adderss 
+  	mainDir - File address on computer
+  	subDir - Directory on computer
+   	filename - Address and file name on computer
+ 	StepsDayMean - mean steps per day
+	StepsDaymedian - median steps per day
+	xtick - seqence for chart tick marks
+	MaxAverageStep - average step interval
+	activity$day - column for weekday/weekend flag
+
+Working tables
+	activity - Data Table
+	ByDay - table total steps per day
+	avg_step - table average steps per interval
+	activityWithEst - activity table with estamated values
+	ByDayWithEst - summary table 
+	weekend - table for weekend   
+	weekday -  table for weekday   
+	Steps_weekend - table for weekend average steps
+	Steps_weekday - table for weekday average steps
