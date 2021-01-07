@@ -110,7 +110,7 @@ In this section we will clear the environment of any data.  Load necessary libra
 	StepsDaymedian <- median(ByDay$total.steps)
 ```
 
-In this study the mean number of steps taken in a day was ` StepsDayMean`.  While `StepsDaymedian` is the median.
+In this study the mean number of steps taken in a day was 1.0766189\times 10^{4}.  While 10765 is the median.
 
 ### 4. Time series plot of the average number of steps taken
 
@@ -136,7 +136,7 @@ In this study the mean number of steps taken in a day was ` StepsDayMean`.  Whil
 	MaxAverageStep <- avg_step$interval[which.max(avg_step$steps)]
 ```
 
-The time interval `MaxAverageStep` on average had the most steps.
+The time interval 835 on average had the most steps.
 
 ### 6. Code to describe and show a strategy for imputing missing data
 Where ever I found missing data I filled it with the average for that interville.
